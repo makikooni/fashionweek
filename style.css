@@ -1,0 +1,191 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text-main: #000000;
+  --color-primary: #000000;
+  --wrapper-height: 87vh;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+/* Resize images */
+container img {
+  width: 300%;
+  height: 100px;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+btn--remix {
+  font-family: HK Grotesk;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  height: 2.75rem;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000000;
+  white-space: nowrap;
+  margin-left: auto;
+}
+btn--remix img {
+  margin-right: 0.5rem;
+}
+btn--remix:hover {
+  background-color: #d0fff1;
+}
+
+body {
+  font-family: HK Grotesk;
+  /* this is background image and font for main text*/
+  background-image: url("https://3djungle.net/upload/resize_cache/iblock/e0c/400_400_1/e0caca2612466ff830c9d723c91e9510.jpg");
+  background-color: white;
+
+
+}
+
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: relative; top: 0; left: 0; width: 100%; height: 100%; }
+
+form {
+  align-items: center;
+}
+section {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+/*header stuff*/
+header {
+  background-color: #000000;
+  padding: 1px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/*illustrations are dipping when clicked*/
+.illustration2 {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.illustration2:active {
+  transform: translateY(5px);
+}
+
+.dipped {
+  transform: translateY(20px);
+}
+
+/* Page structure */
+
+.title {
+  color: #000000;
+  /* this is colour of title and under the font used*/
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 70%;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+/* this is colour of subtitle*/
+h2 {
+  color: #000000;
+}
+
+.illustration:{
+max-height: 90%;
+max-width: 90%;
+};
+
+.illustration:active {
+  transform: translateY(5px);
+}
+
+button2,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 1px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+footer {
+  position: bottom;
+  width: 100%;
+  height: auto;
+  background: #000000;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+a:hover {
+  color: red;
+}
